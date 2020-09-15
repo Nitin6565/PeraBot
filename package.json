@@ -1,0 +1,11 @@
+{
+  "name": "PeraBot",
+  "version": "1.0",
+  "description": "Bot discord di Perecraft",
+  "main": "index.js",
+  "author": "PereCraft",
+  "license": "GPL3",
+  "dependencies": {
+    "discord.js": "6.14.7"
+  }
+}
