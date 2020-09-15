@@ -1,0 +1,27 @@
+[
+  {
+    "name": "help",
+    "description": "Mostra le informazioni del bot",
+    "args": "0-1"
+  },
+  {
+    "name": "info",
+    "description": "Mostra le informazioni del bot",
+    "args": "0"
+  },
+  {
+    "name": "link",
+    "description": "Mostra i link correlati a PereCraft",
+    "args": "0"
+  },
+  {
+    "name": "rules",
+    "description": "Mostra le regole",
+    "args": "0"
+  },
+  {
+    "name": "stat",
+    "description": "Mostra le informazioni del server",
+    "args": "0"
+  }
+]
