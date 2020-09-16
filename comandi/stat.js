@@ -20,12 +20,7 @@ module.exports = {
       
       res.on('end', () => {
         // Leggo il file JSON
-        try{
-          let json = JSON.parse(string);
-        }catch (err){
-          console.log(err);
-          msg.channel.send("C'è stato un errore alla lettura del file, siete pregati di segnalare l'errore.");
-        }
+        let json = JSON.parse(string);
 
         let flagOnline = (json.online) ? "online" : "offline";
         /*
